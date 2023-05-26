@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Oswald&display=swap');
+
+/* 
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Oswald', sans-serif;
+
+ */
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+}
+
+header{
+	background: #f6f9f9;
+}
+.main-logo a{
+	display: block;
+	padding: 10px 0;
+}
+.main-menu{
+
+}
+.main-menu ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.main-menu ul li{
+	list-style: none;
+}
+.main-menu ul li a{
+	text-decoration: none;
+	color: #454444;
+	font-size: 20px;
+	display: block;
+	padding: 10px 25px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+}
+
+/* Banner area */
+.banner-area{
+	background: url(image/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 150px 0 80px 0;
+}
+.title-content{
+	text-align: center;
+}
+.title-content h1{
+	color: #fff;
+	font-size: 80px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.title-content p{
+	color: #fff;
+	border-top: 2px solid #15a4fa;
+	display: inline-block;
+	padding: 30px 20px ;
+	font-size: 20px;
+}
+.button-content{
+	text-align: center;
+}
+.button-content a{
+	color: #fff;
+	border: 1px solid #15a3f9;
+	padding: 10px 30px;
+	transition: .4s;
+	text-decoration: none;
+}
+.button-content a:hover{
+	background: #15a3f9;
+	color: #fff;
+}
+.button-content i{
+	display: block;
+	margin-top: 175px;
+	color: #fff;
+	cursor: pointer;
+}
+
+/* About area */
+
+.about-area{
+	background: #f6f9f9;
+	padding: 80px 0;
+}
+.about-item{
+	text-align: center;
+}
+.about-item h2{
+	color: #2d3950;
+	font-size: 40px;
+	margin-bottom: 25px;
+}
+.about-item p{
+	color: #999999;
+	font-size: 20px;
+	text-align: center;
+}
+
+/* Service area */
+
+
+.service-area{
+	padding: 80px 0;
+}
+.icon-1{
+	width: 65px;
+	height: 65px;
+	background: linear-gradient(to right,#48baff 50%,#5fc3ff 50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-bottom: 16px;
+
+}
+.icon-1 i{
+	font-size: 40px;
+	color: #fff;
+}
+.text-1{
+	text-align: center;
+	padding-top: 16px;
+}
+.text-1 h3{
+	color: #2d3950;
+	font-size: 25px;
+
+}
+.text-1 p{
+	padding: 10px 17px 0 17px;
+	color: #999999;
+}
+
+/* Portfolio area */
+.portfolio-area{
+	background: #f6f9f9;
+	padding: 80px 0;
+}
+.portfolio-header{
+	text-align: center;
+	padding-bottom: 80px;
+}
+.portfolio-header h2{
+	color: #2d3950;
+	font-size: 41px;
+}
+.portfolio-header p{
+	color: #909090;
+	font-size: 15px;
+}
+/* contact-area */
+
+.contact-area{
+	background: url(image/contact-photo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 70px 0 100px 0;
+}
+.contact-header{
+	text-align: center;
+}
+.contact-header h2{
+	color: #fff;
+	font-size: 41px;
+}
+.contact-header p{
+	color: #999999;
+	font-size: 15px;
+}
+
+.contact-form{
+	width: 50%;
+	margin: 0 auto;
+}
+.contact-head input,
+.contact-head textarea{
+	width: 100%;
+	background: transparent;
+	padding: 10px 0 23px 10px;
+	color: #999999;
+	border: 2px solid #999999;
+	box-sizing: wrap;
+}
+
+.foot-area{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.contact-fut p{
+	display: inline-block;
+	color: #fff;
+	margin-left: 7px;
+	font-size: 15px;
+}
+.button a{
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #15a3f9;
+	padding: 10px 30px;
+	font-size: 18px;
+	transition: .4s;
+}
+.button a:hover{
+	color: #fff;
+	background: #15a3f9;
+}
+footer{
+	background: #f6f9f9;
+}
+.footer-area{
+	padding: 0px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-text P{
+	color: #999999;
+	font-size: 18px;
+	margin-top: 30px;
+}
+.footer-icon ul{
+	display: flex;
+	justify-content: space-around;
+}
+.footer-icon ul li{
+	list-style: none;
+	padding: 0;
+}
+.footer-icon ul li a{
+	text-decoration: none;
+	display: block;
+	color: #15a4fa;
+	margin-right: 10px;
+	padding: 5px;
+	font-size: 50px;
+	transition: .4s;
+}
+.footer-icon ul li a:hover{
+	transform: scale(1.1);
+}
+
+
+

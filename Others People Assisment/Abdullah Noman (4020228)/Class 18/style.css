@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+
+
+	/*font-family: 'Lato', sans-serif;
+	font-family: 'Oswald', sans-serif;*/
+
+body{
+	font-family: 'Lato', sans-serif;
+	background: #fff;
+}	
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+/* header */
+header{
+	background: #f5f9f9;
+	padding: 30px 0;
+}
+.menu{
+	padding: 0 30px;
+
+}
+.menu ul{
+	display: flex;
+	justify-content: flex-end;
+	margin: 0;
+    list-style: none;
+}
+.menu ul li a{
+	font-family: 'Oswald', sans-serif;
+	color: #454444;
+	font-size: 25px;
+	text-transform: capitalize;
+	padding: 0px 27px;
+}
+/* banner */
+.banner{
+	background: url('images/Strict.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	padding: 215px 0 90px 0;
+}
+.banner-text{
+	text-align: center;
+}
+.banner-text h1{
+	color: #fff;
+	font-size: 120px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+.banner-text p{
+	color: #fff;
+	font-size: 20px;
+	border-top: 2px solid #15a3f9;
+	display: inline-block;
+	padding: 30px 20px;
+}
+.banner-button{
+	text-align: center;
+}
+.banner-button a{
+     color: #fff;
+     border: 1px solid #15a3f9;
+     padding: 15px 30px;
+     transition: .4s;
+}
+.banner-button a:hover{
+	background: #15a3f9;
+}
+.banner-button i{
+	display: block;
+	margin-top: 170px;
+	color: #fff; 
+}
+/* about */
+.about{
+	background: #f5f9f9;
+	padding: 80px 0 100px 0;
+}
+.section-title{
+	text-align: center;
+}
+.section-title h2{
+	font-size: 40px;
+	color: #2d3950;
+	font-weight: bold;
+}
+.about-content{
+	text-align: center;
+}
+.about-content p{
+	font-size: 20px;
+	color: #999999;
+}
+/* service*/
+.service{
+	background: #fff;
+	padding: 65px 0;
+}
+.icon{
+	background: linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+	width: 100px;
+	height: 100px;
+	margin: 0 auto 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.icon i{
+    font-size: 40px;
+    color: #fff;
+}
+.text{
+	text-align: center;
+	padding: 0 30px;
+}
+.text h5{
+	font-size: 22px;
+	color: #2d3950;
+}
+.text p{
+	font-size: 15px;
+	color: #999999;
+}
+
+/* portfolio */
+.portfolio{
+	background: #f6f9f9;
+	padding: 82px 224px 110px;
+}
+.title{
+	text-align: center;
+}
+.title h2{
+	color: #2d3950;
+	font-size: 41px;
+	padding-bottom: 22px;
+}
+.title p{
+	color: #909090;
+	font-size: 15px;
+	padding-bottom: 80px;
+}
+.section a{
+	margin: 10px 0;
+	display: block;
+}
+/* form */
+.contact-form{
+	background: url('images/Strict (8).png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	padding: 72px 0 100px;
+}
+.form-title h2{
+	color: #fff;
+	font-size: 41px;
+	padding-bottom: 23px;
+}
+.form-title p{
+	color: #999999;
+	font-size: 15px;
+	padding-bottom: 52px;
+}
+.checkbox p{
+	color: #fff;
+	font-size: 15px;
+}
+button{
+	padding: 13px 50px;
+	color: #fff;
+	background: #000;
+	border-radius: 2px;
+	border-color: #15a3f9;
+	font-size: 18px;
+}
+.our-class{
+	justify-content: center;
+}
+.form-bottom{
+	display: flex;
+	justify-content: space-between;
+}
+/* footer */
+footer{
+	padding: 30px 0;
+	background: #f5f9f9;
+}
+.footer-section{
+	display: flex;
+	justify-content: space-between;
+}
+.footer-section p{
+    font-size: 15px;
+    color: #999999;
+}
+.social-icon{
+
+}
+.social-icon i{
+    background: #15a3f9;
+    color: #fff;
+    padding: 14px;
+}
+
+
+
+
+

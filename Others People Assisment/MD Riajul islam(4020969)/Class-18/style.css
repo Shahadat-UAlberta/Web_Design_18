@@ -1,0 +1,270 @@
+/* =-=-=-=-=-=-=-=-=
+    Google Fonts
+=-=-=-=-=-=-=-=-=-=-=*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');
+/* =-=-=-=-=-=-=-=-=
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+=-=-=-=-=-=-=-=-=-=-=*/
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Lato', sans-serif; 
+}
+/* =-=-=-=-=-=-=-=-=
+    Menu Section
+=-=-=-=-=-=-=-=-=-=-=*/
+header{
+    background-color: #f6f9f9;
+    padding: 30px 0px;
+}
+.menu{}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    padding: 0 27px;
+    color: #6c7481;
+}
+/* =-=-=-=-=-=-=-=-=
+    Banner Section
+=-=-=-=-=-=-=-=-=-=-=*/
+.banner{
+    background: url(images/strict-banner.png) no-repeat fixed center;
+    background-size: cover;
+    padding: 215px 0 90px 0;
+}
+.banner-text{
+    text-align: center;
+}
+.banner-text h1{
+    color: #fff;
+    font-size: 120px;
+    padding-bottom: 34px;
+    text-transform: uppercase;
+}
+.banner-text p{
+    color: #fff;
+    font-size: 20px;
+    border-top: 2px solid #15a4fa;
+    display: inline-block;
+    padding: 40px 10px;
+}
+.banner-button{
+    text-align: center;
+}
+.banner-button a{
+    color: white;
+    font-size: 18px;
+    border: 2px solid #15a4fa;
+    padding: 18px 33px;
+    margin-bottom: 178px;
+}
+.banner-button a:hover{
+    background-color: #15a4fa;
+}
+.banner-button i{
+    display: block;
+    margin-top: 178px;
+}
+/* =-=-=-=-=-=-=-=-=
+    About Section
+=-=-=-=-=-=-=-=-=-=-=*/
+.about{
+    background: #f6f9f9;
+    padding: 80px 0 102px 0;
+}
+.section-title{
+    text-align: center;
+}
+.section-title h2{
+    color: #2d3950;
+    font-size: 40px;
+    margin-bottom: 37px;
+}
+.about-text{
+    text-align: center;
+}
+.about-text p{
+    color: #999;
+    font-size: 20px;
+}
+/* =-=-=-=-=-=-=-=-=
+   Service Section
+=-=-=-=-=-=-=-=-=-=-=*/
+.service{
+    text-align: center;
+    padding: 64px 0;
+}
+.service i{
+    font-size: 70px;
+    background: linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+    padding: 14px 28px;
+    color: white;
+    margin-bottom: 30px;
+}
+.service h4{
+    color: #2d3950;
+    font-size: 22px;
+}
+.service p{
+    color: #999;
+    font-size: 15px;
+}
+/* =-=-=-=-=-=-=-=-=
+   Work Section
+=-=-=-=-=-=-=-=-=-=-=*/
+.work{
+    background: #f6f9f9;
+    padding: 80px 0 114px 0;
+}
+.work .section-title{
+    margin-bottom: 80px;
+}
+.work .section-title h2{
+    margin-bottom: 20px;
+}
+.work-item{
+    position: relative;
+    margin-bottom: 30px;
+}
+.work-item:hover .image-overlay{
+    opacity: 1;
+}
+.image-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(21, 164, 250, 0.9);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-overlay ul{
+    display: flex;
+}
+.image-overlay ul li{
+    list-style: none;
+    border: 2px solid #fff;
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-overlay ul li i{
+    color: #fff;
+}
+.image-overlay ul li:hover{
+    background: #fff;
+    color: black;
+}
+.image-overlay ul li:hover i{
+    color: #15a4fa;
+}
+/* =-=-=-=-=-=-=-=-=
+   Contact Section
+=-=-=-=-=-=-=-=-=-=-=*/
+.contact{
+    background: url(images/contact.png) no-repeat fixed center;
+    background-size: cover;
+}
+.contact-overlay{
+    background: rgba(45, 57, 80, 0.9);
+    padding: 72px 0 108px 0;
+}
+.contact-overlay .section-title h2{
+    margin-bottom: 20px;
+    color: white;
+}
+.contact-overlay .section-title p{
+    color: #999;
+}
+.c-top form input,
+.c-top form textarea{
+    background: transparent;
+    margin-bottom: 19px;
+    outline: none;
+}
+.c-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.c-bottom-left input{
+    margin-top: 25px;
+}
+.c-bottom-left label{
+    color: white;
+    font-size: 15px;
+}
+.c-bottom-right input{
+    padding: 15px 50px;
+    background: transparent;
+    color: white;
+    border: 1px solid #15a4fa;
+}
+.c-bottom-right input:hover{
+    background: #15a4fa;
+    text-transform: uppercase;
+}
+/* =-=-=-=-=-=-=-=-=
+   Footer Section
+=-=-=-=-=-=-=-=-=-=-=*/
+footer{
+    background: #f6f9f9;
+    padding: 34px 0 20px 0;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text p{
+    font-size: 15px;
+    color: #999;
+    margin-top: 10px;
+}
+.footer-icon{}
+.footer-icon ul{
+    display: flex;
+    margin-bottom: 0;
+}
+.footer-icon ul li{
+    list-style: none;
+    background: #15a4fa;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-icon ul li:hover{
+    background: black;
+}
+.footer-icon ul li:hover i{
+    color: #15a4fa;
+}
+.footer-icon ul li i{
+    color: white;
+    font-size: 20px;
+}

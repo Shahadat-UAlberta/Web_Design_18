@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');
+
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+body{
+	font-family: 'Lato', sans-serif;
+	background: #fff;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+
+/* Header */
+header{
+	background: #f5f9f9;
+	padding: 20px 0;
+}
+.menu{}
+.menu ul{
+	display: flex;
+	justify-content: flex-end;
+	margin: 0;
+	list-style: none;
+}
+.menu ul li{}
+.menu ul li a{
+	font-family: 'Oswald', sans-serif;
+	color: #454444;
+	font-size: 20px;
+	text-transform: capitalize;
+	padding: 0 27px;
+}
+.menu ul li a:hover{}
+
+/* Banner */
+.banner{
+	background: url(images/cover.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 150px 0 90px 0;
+}
+.banner-text{
+	text-align: center;
+}
+.banner-text h1{
+	color: #fff;
+	font-size: 80px;
+	text-transform: uppercase;
+	font-weight: 800;
+	margin-bottom: 30px;
+}
+.banner-text p{
+	color: #fff;
+	font-size: 20px;
+	border-top: 2px solid #15a3f9;
+	display: inline-block;
+	padding: 30px 20px;
+}
+.banner-button{
+	text-align: center;
+}
+.banner-button a{
+	color: #fff;
+	border: 1px solid #15a3f9;
+	padding: 10px 30px;
+	transition: .4s;
+}
+.banner-button a:hover{
+	background: #15a3f9;
+}
+.banner-button i{
+	display: block;
+	margin-top: 175px;
+	color: #fff;
+}
+
+/* About */
+.about{
+	background: #f5f9f9;
+	padding: 80px 0;
+}
+.section-title{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.section-title h2{
+	font-size: 40px;
+	color: #2d3950;
+}
+.about-content{
+	text-align: center;
+}
+.about-content p{
+	color: #999999;
+	font-size: 20px;
+}
+
+/* service */
+.service{
+	background: #ffffff;
+	padding: 80px 0;
+}
+.service-icon{
+	background: linear-gradient(to right, #47b9ff 50%, #5fc3ff 50%);
+	width: 70px;
+	height: 70px;
+	margin: 0 auto 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.service-icon i{
+	font-size: 35px;
+	color: #fff;
+}
+.service-text{
+	text-align: center;
+	padding: 0 25px;
+}
+.service-text h5{
+	font-size: 20px;
+	color: #2d3950;
+}
+.service-text p{
+	color: #999999;
+	font-size: 15px;
+}
